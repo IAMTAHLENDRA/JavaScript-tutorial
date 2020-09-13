@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js Tutorial</title>
+    <link rel="stylesheet" href="static/CSS/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+</head>
+<body>
+    <div class="container-1">
+        <h2>Challenge 1 : Your Age in Days</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="ageInDays()">Click me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+
+        <div class="flex-box-container-1">
+            <div class="flex-box-result" id="ans"></div>
+        </div>
+    </div>
+
+    <div class="container-2">
+        <h2>Challenge 2: Rock Generator</h2>
+        <button class="btn btn-success" id="cat-generator" onclick="generateCat()">Generate Rock</button>
+        <div class="flex-box-container-2" id="flex-cat-gen"></div>
+    </div>
+
+    <div class="container-3">
+        <h2>Challenge 3: Rock, Paper, Scissors</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="static/Images/rock.jpg" alt="" onclick="rpsGame(this)" style="width: 150px; height: 150px;">
+            <img id="paper" src="static/Images/paper.jpg" alt="" onclick="rpsGame(this)" style="width: 150px; height: 150px;">
+            <img id="scissor" src="static/Images/scissor.jpg" alt="" onclick="rpsGame(this)" style="width: 150px; height: 150px;">
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
